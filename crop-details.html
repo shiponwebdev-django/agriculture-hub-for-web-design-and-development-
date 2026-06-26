@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>
+      Agri Hub | Crop Details - Grains, Fruits, Vegetables & Cash Crops
+    </title>
+
+    <meta
+      name="description"
+      content="Comprehensive crop information - varieties, cultivation methods, soil requirements, harvesting techniques, nutritional values, and uses."
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+
+  <body class="bg-base-100">
+    <!-- Navbar -->
+    <div class="navbar bg-base-100 shadow-md sticky top-0 z-50">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <i class="fas fa-bars text-xl"></i>
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+          >
+            <li><a href="index.html">Home</a></li>
+            <li><a href="farming-guides.html">Farming Guides</a></li>
+            <li><a href="crop-details.html">Crop Details</a></li>
+            <li><a href="pest-control.html">Pest Control</a></li>
+            <li><a href="contact.html">Contact Experts</a></li>
+          </ul>
+        </div>
+        <a href="index.html" class="btn btn-ghost text-xl"
+          ><i class="fas fa-seedling text-green-600 mr-2"></i>Agri Hub</a
+        >
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1 gap-1">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="farming-guides.html">Farming Guides</a></li>
+          <li><a href="crop-details.html">Crop Details</a></li>
+          <li><a href="pest-control.html">Pest Control</a></li>
+          <li><a href="contact.html">Contact Experts</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <a href="contact.html" class="btn btn-sm btn-success text-white"
+          >Ask Expert <i class="fas fa-headset ml-1"></i
+        ></a>
+      </div>
+    </div>
+    <!-- ================= HEADER ================= -->
+    <section class="bg-gradient-to-r from-green-50 to-emerald-50 py-10 px-4">
+      <div class="max-w-7xl mx-auto text-center">
+        <h1 class="text-4xl font-bold text-green-800">
+          <i class="fas fa-apple-alt mr-3"></i>Crop Details Library
+        </h1>
+
+        <p class="text-gray-700 mt-3 text-lg max-w-3xl mx-auto">
+          Comprehensive information on different crops including varieties,
+          cultivation methods, soil requirements, harvesting techniques,
+          nutritional values, and potential uses.
+        </p>
+      </div>
+    </section>
+
+    <!-- ================= MAIN ================= -->
+    <div class="max-w-7xl mx-auto px-4 py-8">
+      <!-- FILTER SECTION -->
+      <div
+        class="bg-white rounded-xl shadow-md p-6 mb-8 border border-gray-100"
+      >
+        <h3 class="font-semibold text-gray-700 mb-4">
+          <i class="fas fa-filter mr-2 text-green-600"></i>
+          Filter Crops by Category
+        </h3>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <!-- Category -->
+          <div>
+            <label class="label text-sm font-medium text-gray-600">
+              <i class="fas fa-tractor mr-1"></i> Crop Category
+            </label>
+
+            <select
+              onchange="filterCrops()"
+              id="filterCropCategory"
+              class="select select-bordered w-full bg-white"
+            >
+              <option value="all">All Categories</option>
+              <option value="Grains">Grains</option>
+              <option value="Fruits">Fruits</option>
+              <option value="Vegetables">Vegetables</option>
+              <option value="Cash Crops">Cash Crops</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- COUNT -->
+      <div class="flex justify-between items-center mb-6">
+        <p class="text-gray-600">
+          <i class="fas fa-database mr-1 text-green-600"></i>
+          Showing crops
+        </p>
+      </div>
+
+      <!-- CROPS GRID -->
+      <div id="cropsContainer" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="text-center py-10 col-span-full">Loading crops...</div>
+
+        <!-- demo card -->
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 text-center py-6 mt-10">
+      <p>© <span id="live-date"></span> Agri Hub - Empowering Farmers</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

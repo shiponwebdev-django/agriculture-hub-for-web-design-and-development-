@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agri Hub | Farming Guides</title>
+    <meta
+      name="description"
+      content="Farming guides categorized by crop types, seasons, and farming methods."
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body class="bg-base-100">
+    <!-- Navbar -->
+    <div class="navbar bg-base-100 shadow-md sticky top-0 z-50">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <i class="fas fa-bars text-xl"></i>
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+          >
+            <li><a href="index.html">Home</a></li>
+            <li><a href="farming-guides.html">Farming Guides</a></li>
+            <li><a href="crop-details.html">Crop Details</a></li>
+            <li><a href="pest-control.html">Pest Control</a></li>
+            <li><a href="contact.html">Contact Experts</a></li>
+          </ul>
+        </div>
+        <a href="index.html" class="btn btn-ghost text-xl"
+          ><i class="fas fa-seedling text-green-600 mr-2"></i>Agri Hub</a
+        >
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1 gap-1">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="farming-guides.html">Farming Guides</a></li>
+          <li><a href="crop-details.html">Crop Details</a></li>
+          <li><a href="pest-control.html">Pest Control</a></li>
+          <li><a href="contact.html">Contact Experts</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <a href="contact.html" class="btn btn-sm btn-success text-white"
+          >Ask Expert <i class="fas fa-headset ml-1"></i
+        ></a>
+      </div>
+    </div>
+
+    <!-- Page Header -->
+    <section class="bg-gradient-to-r from-green-50 to-emerald-50 py-10 px-4">
+      <div class="max-w-7xl mx-auto text-center">
+        <h1 class="text-4xl font-bold text-green-800">
+          <i class="fas fa-chalkboard-user mr-3"></i>Farming Guides & Tutorials
+        </h1>
+        <p class="text-gray-700 mt-3 text-lg">
+          Step-by-step instructions, expert tips, and best practices for
+          effective farming
+        </p>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="max-w-7xl mx-auto px-4 py-8">
+      <!-- Filter Section - Simple Dropdowns -->
+      <div
+        class="bg-white rounded-xl shadow-md p-6 mb-8 border border-gray-100"
+      >
+        <h3 class="font-semibold text-gray-700 mb-4">
+          <i class="fas fa-filter mr-2 text-green-600"></i>Filter Guides
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <!-- Filter by Crop Type -->
+          <div>
+            <label class="label text-sm font-medium text-gray-600">
+              <i class="fas fa-tractor mr-1"></i> Crop Type
+            </label>
+            <select
+              onchange="filterGuid()"
+              id="filterCropType"
+              class="select select-bordered w-full bg-white"
+            >
+              <option value="all">All Crop Types</option>
+              <option value="Organic">Organic</option>
+              <option value="Irrigation">Irrigation</option>
+              <option value="Planning">Planning</option>
+              <option value="Soil Health">Soil Health</option>
+              <option value="Greenhouse">Greenhouse</option>
+              <option value="Conservation">Conservation</option>
+            </select>
+          </div>
+
+          <!-- Filter by Season -->
+          <div>
+            <label class="label text-sm font-medium text-gray-600"
+              ><i class="fas fa-calendar-alt mr-1"></i> Season</label
+            >
+            <select
+              id="filterSeason"
+              class="select select-bordered w-full bg-white"
+              onchange="filterGuid()"
+            >
+              <option value="all">All Seasons</option>
+              <option value="All Seasons">All Seasons</option>
+              <option value="Dry Season">Dry Season</option>
+              <option value="Pre-Season">Pre-Season</option>
+            </select>
+          </div>
+
+          <!-- Filter by Farming Method -->
+          <div>
+            <label class="label text-sm font-medium text-gray-600"
+              ><i class="fas fa-leaf mr-1"></i> Farming Method</label
+            >
+            <select
+              id="filterMethod"
+              class="select select-bordered w-full bg-white"
+              onchange="filterGuid()"
+            >
+              <option value="all">All Methods</option>
+              <option value="Organic">Organic</option>
+              <option value="Modern">Modern</option>
+              <option value="Traditional">Traditional</option>
+              <option value="Conservation">Conservation</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Guides Count -->
+      <div class="flex justify-between items-center mb-6">
+        <p class="text-gray-600">
+          <i class="fas fa-book-open mr-1 text-green-600"></i> Showing guides
+        </p>
+      </div>
+
+      <!-- Guides Grid -->
+      <div
+        id="guidesContainer"
+        class="grid md:grid-cols-2 lg:grid-cols-3 gap-6"
+      >
+        <div class="text-center py-10 col-span-full">Loading guides...</div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 text-center py-6 mt-10">
+      <p>© <span id="live-date"></span> Agri Hub - Empowering Farmers</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

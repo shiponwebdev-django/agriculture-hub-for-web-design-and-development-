@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agri Hub | Contact Experts</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body class="bg-base-100">
+    <!-- Navbar -->
+    <div class="navbar bg-base-100 shadow-md sticky top-0 z-50">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <i class="fas fa-bars text-xl"></i>
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+          >
+            <li><a href="index.html">Home</a></li>
+            <li><a href="farming-guides.html">Farming Guides</a></li>
+            <li><a href="crop-details.html">Crop Details</a></li>
+            <li><a href="pest-control.html">Pest Control</a></li>
+            <li><a href="contact.html">Contact Experts</a></li>
+          </ul>
+        </div>
+        <a href="index.html" class="btn btn-ghost text-xl"
+          ><i class="fas fa-seedling text-green-600 mr-2"></i>Agri Hub</a
+        >
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1 gap-1">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="farming-guides.html">Farming Guides</a></li>
+          <li><a href="crop-details.html">Crop Details</a></li>
+          <li><a href="pest-control.html">Pest Control</a></li>
+          <li><a href="contact.html">Contact Experts</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <a href="contact.html" class="btn btn-sm btn-success text-white"
+          >Ask Expert <i class="fas fa-headset ml-1"></i
+        ></a>
+      </div>
+    </div>
+
+    <!-- Page Header -->
+    <div class="bg-green-50 py-10 text-center">
+      <h1 class="text-4xl font-bold text-green-800">
+        <i class="fas fa-headset"></i> Contact Experts
+      </h1>
+      <p class="text-gray-600 mt-2">Get advice from agricultural specialists</p>
+    </div>
+
+    <!-- Main Content -->
+    <div class="max-w-6xl mx-auto px-4 py-10">
+      <div class="grid md:grid-cols-2 gap-8">
+        <!-- LEFT SIDE: Contact Information -->
+        <div class="bg-white rounded-lg shadow p-6">
+          <h2 class="text-2xl font-bold text-green-700 mb-4">
+            <i class="fas fa-phone-alt"></i> Direct Contact
+          </h2>
+
+          <div class="space-y-4">
+            <div class="flex items-center gap-3">
+              <i class="fas fa-phone text-green-600 text-xl"></i>
+              <div>
+                <p class="font-bold">Phone</p>
+                <p>+880 1234-567890</p>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <i class="fas fa-envelope text-green-600 text-xl"></i>
+              <div>
+                <p class="font-bold">Email</p>
+                <p>experts@agrihub.com</p>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <i class="fab fa-whatsapp text-green-600 text-xl"></i>
+              <div>
+                <p class="font-bold">WhatsApp</p>
+                <p>+880 1234-567890</p>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <i class="far fa-clock text-green-600 text-xl"></i>
+              <div>
+                <p class="font-bold">Office Hours</p>
+                <p>Sun-Thu: 9AM - 6PM</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-6 p-4 bg-yellow-50 rounded-lg">
+            <p class="text-sm">
+              <i class="fas fa-info-circle"></i>
+              Emergency help available 24/7 on phone & WhatsApp
+            </p>
+          </div>
+        </div>
+
+        <!-- RIGHT SIDE: Contact Form -->
+        <div class="bg-white rounded-lg shadow p-6">
+          <h2 class="text-2xl font-bold text-green-700 mb-4">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </h2>
+
+          <form id="contactForm">
+            <!-- Name -->
+            <div class="mb-4">
+              <label class="block font-medium mb-1">Full Name *</label>
+              <input
+                type="text"
+                id="name"
+                class="w-full border rounded-lg px-3 py-2 focus:outline-none focus:border-green-500"
+              />
+            </div>
+
+            <!-- Email -->
+            <div class="mb-4">
+              <label class="block font-medium mb-1">Email Address *</label>
+              <input
+                type="email"
+                id="email"
+                class="w-full border rounded-lg px-3 py-2 focus:outline-none focus:border-green-500"
+              />
+            </div>
+
+            <!-- Subject -->
+            <div class="mb-4">
+              <label class="block font-medium mb-1">Subject *</label>
+              <select
+                id="subject"
+                class="w-full border rounded-lg px-3 py-2 focus:outline-none focus:border-green-500"
+              >
+                <option value="">Select Subject</option>
+                <option>Farming Advice</option>
+                <option>Crop Disease</option>
+                <option>Pest Control</option>
+                <option>Soil Testing</option>
+                <option>Other</option>
+              </select>
+            </div>
+
+            <!-- Message -->
+            <div class="mb-4">
+              <label class="block font-medium mb-1">Message *</label>
+              <textarea
+                id="message"
+                rows="4"
+                class="w-full border rounded-lg px-3 py-2 focus:outline-none focus:border-green-500"
+              ></textarea>
+            </div>
+
+            <!-- Attachment (Optional) -->
+            <div class="mb-4">
+              <label class="block font-medium mb-1"
+                >Attachment (Optional)</label
+              >
+              <input
+                type="file"
+                id="attachment"
+                class="w-full border rounded-lg px-3 py-2"
+              />
+              <p class="text-gray-400 text-xs mt-1">
+                Upload image or document (max 5MB)
+              </p>
+            </div>
+
+            <!-- Submit Button -->
+            <button
+              type="submit"
+              class="w-full bg-green-600 text-white py-2 rounded-lg hover:bg-green-700"
+            >
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+
+            <!-- Status Message -->
+            <div id="status" class="mt-4 text-center"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 text-center py-6 mt-10">
+      <p>© <span id="live-date">2026</span> Agri Hub - Empowering Farmers</p>
+    </footer>
+
+    <!-- js connection -->
+    <script src="./script.js"></script>
+  </body>
+</html>

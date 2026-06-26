@@ -1,0 +1,427 @@
+{
+  "guides": [
+    {
+      "id": 1,
+      "title": "Getting Started with Organic Farming",
+      "category": "Organic",
+      "season": "All Seasons",
+      "method": "Organic",
+      "image": "https://i.pinimg.com/736x/fb/71/70/fb7170e8b8f1d221199146fd6165fff6.jpg",
+      "summary": "A beginner's guide to transitioning your farm to certified organic practices.",
+      "steps": [
+        "Assess your current soil health using a basic pH & nutrient test.",
+        "Remove synthetic fertilizers and pesticides from your supplies.",
+        "Introduce compost and green manure to improve soil fertility.",
+        "Plan crop rotation cycles to break pest and disease cycles.",
+        "Source certified organic seeds from reputable suppliers.",
+        "Keep detailed records for certification purposes."
+      ],
+      "tips": [
+        "Start small with one field before converting entire farm.",
+        "Connect with local organic farming cooperatives for support."
+      ],
+      "duration": "6–12 months transition"
+    },
+    {
+      "id": 2,
+      "title": "Drip Irrigation Setup for Small Farms",
+      "category": "Irrigation",
+      "season": "Dry Season",
+      "method": "Modern",
+      "image": "https://i.pinimg.com/1200x/75/40/74/7540740c80f3a986f09d774cc3ad3095.jpg",
+      "summary": "Step-by-step guide to installing a cost-effective drip irrigation system.",
+      "steps": [
+        "Map your field and identify water source location.",
+        "Calculate water pressure and flow rate needed.",
+        "Purchase mainline pipes, emitters, and a filter kit.",
+        "Lay the mainline pipe along the field edges.",
+        "Connect lateral tubes to mainline at row intervals.",
+        "Place emitters near plant root zones.",
+        "Test the system and check for leaks before planting."
+      ],
+      "tips": [
+        "Use a pressure regulator to avoid pipe bursts.",
+        "Flush the system weekly to prevent clogging."
+      ],
+      "duration": "1–3 days installation"
+    },
+    {
+      "id": 3,
+      "title": "Seasonal Crop Planning for Maximum Yield",
+      "category": "Planning",
+      "season": "Pre-Season",
+      "method": "Traditional",
+      "image": "https://i.pinimg.com/736x/5b/5d/b0/5b5db0b92151d089ca4f84513a6fe64c.jpg",
+      "summary": "How to plan your crop calendar to maximize yield across all seasons.",
+      "steps": [
+        "Review last season's results and soil analysis reports.",
+        "Identify high-demand crops in your local market.",
+        "Check rainfall patterns and expected temperature ranges.",
+        "Divide your land into rotation blocks.",
+        "Schedule planting dates 2 weeks before optimal period.",
+        "Prepare seed stock and fertilizer budget in advance."
+      ],
+      "tips": [
+        "Keep a farming diary for year-on-year comparisons.",
+        "Attend local agricultural extension meetings for regional crop advice."
+      ],
+      "duration": "2–4 weeks planning"
+    },
+    {
+      "id": 4,
+      "title": "Composting at Home & Farm Scale",
+      "category": "Soil Health",
+      "season": "All Seasons",
+      "method": "Organic",
+      "image": "https://i.pinimg.com/1200x/e4/35/0a/e4350a6f4b81d0f7ea1ec10bdb171d99.jpg",
+      "summary": "Turn farm waste into rich compost to reduce costs and boost soil fertility.",
+      "steps": [
+        "Collect brown materials: dry leaves, straw, cardboard.",
+        "Collect green materials: vegetable scraps, grass clippings.",
+        "Layer browns and greens in a 3:1 ratio by volume.",
+        "Keep the pile moist but not waterlogged.",
+        "Turn the pile every 2 weeks for aeration.",
+        "Compost is ready when it smells earthy and looks dark."
+      ],
+      "tips": [
+        "Avoid meat and dairy in compost piles.",
+        "Chop materials into smaller pieces to speed up decomposition."
+      ],
+      "duration": "2–3 months"
+    },
+    {
+      "id": 5,
+      "title": "Greenhouse Farming for Vegetables",
+      "category": "Greenhouse",
+      "season": "All Seasons",
+      "method": "Modern",
+      "image": "https://i.pinimg.com/1200x/1e/d0/df/1ed0dfa165ea40bc9335200a439962ec.jpg",
+      "summary": "Build and manage a simple tunnel greenhouse for year-round vegetable production.",
+      "steps": [
+        "Select a sunny, level site sheltered from strong winds.",
+        "Choose between polythene tunnel or glass greenhouse.",
+        "Install raised beds or container systems inside.",
+        "Set up ventilation and temperature monitoring.",
+        "Plant high-value crops like tomatoes, peppers, and herbs.",
+        "Monitor humidity and water daily."
+      ],
+      "tips": [
+        "Shade cloth reduces heat stress in summer.",
+        "Bees can be introduced for pollination."
+      ],
+      "duration": "Ongoing management"
+    },
+    {
+      "id": 6,
+      "title": "Water Conservation Techniques for Dry Regions",
+      "category": "Irrigation",
+      "season": "Dry Season",
+      "method": "Conservation",
+      "image": "https://i.pinimg.com/736x/74/38/b3/7438b321725be619828db59fb5f5410a.jpg",
+      "summary": "Practical water-saving strategies for farms in drought-prone areas.",
+      "steps": [
+        "Conduct a water audit to identify wastage points.",
+        "Install rainwater harvesting tanks.",
+        "Apply mulch around crops to reduce evaporation.",
+        "Use deficit irrigation — water at 70% of crop needs.",
+        "Plant drought-resistant cover crops between rows.",
+        "Repair leaks and upgrade to drip or sprinkler systems."
+      ],
+      "tips": [
+        "Water in early morning or evening to reduce evaporation.",
+        "Group crops with similar water needs in the same zone."
+      ],
+      "duration": "Ongoing"
+    }
+  ],
+  "crops": [
+    {
+      "id": 1,
+      "name": "Rice",
+      "category": "Grains",
+      "image": "https://i.pinimg.com/1200x/0e/8b/04/0e8b04474b267036d174fb06209ff0f0.jpg",
+      "varieties": "Basmati Jasmine, Arborio, Long Grain",
+      "soil": "Clay or loamy soil, pH 5.5–6.5",
+      "water": "High – flooded paddies or heavy irrigation",
+      "growthDuration": "90–150 days",
+      "harvestTechnique": "Cut stalks at base when grains turn golden; thresh by beating or machine.",
+      "nutrition": {
+        "calories": 130,
+        "protein": "2.7g",
+        "carbs": "28g",
+        "fiber": "0.4g"
+      },
+      "uses": ["Staple food", "Rice flour", "Rice wine", "Animal feed"],
+      "tips": "Transplant seedlings after 3–4 weeks in nursery for better yield."
+    },
+    {
+      "id": 2,
+      "name": "Maize (Corn)",
+      "category": "Grains",
+      "image": "https://i.pinimg.com/736x/d3/60/13/d36013ae30b23f13fb142f17c3ccd8c3.jpg",
+      "varieties": "Sweet Corn, Dent Corn, Flint Corn, Popcorn",
+      "soil": "Well-drained loamy soil, pH 6.0–6.8",
+      "water": "Moderate – 500–800mm per season",
+      "growthDuration": "60–100 days",
+      "harvestTechnique": "Hand-pick or machine harvest when husks are dry and kernels firm.",
+      "nutrition": {
+        "calories": 96,
+        "protein": "3.4g",
+        "carbs": "21g",
+        "fiber": "2.4g"
+      },
+      "uses": ["Human food", "Animal feed", "Ethanol production", "Cornstarch"],
+      "tips": "Plant in blocks rather than rows to ensure proper pollination."
+    },
+    {
+      "id": 3,
+      "name": "Tomato",
+      "category": "Vegetables",
+      "image": "https://i.pinimg.com/736x/11/9c/ea/119cea4b403ddcfcba404b6e58ddff0d.jpg",
+      "varieties": "Cherry ,Roma ,Beefsteak, Heirloom",
+      "soil": "Rich, well-drained loam, pH 6.0–6.8",
+      "water": "Consistent moisture – avoid waterlogging",
+      "growthDuration": "60–80 days from transplant",
+      "harvestTechnique": "Pick when fully colored and slightly soft to touch.",
+      "nutrition": {
+        "calories": 18,
+        "protein": "0.9g",
+        "carbs": "3.9g",
+        "fiber": "1.2g"
+      },
+      "uses": ["Fresh eating", "Sauces & purees", "Canning", "Juices"],
+      "tips": "Stake or cage plants early; remove suckers for larger fruits."
+    },
+    {
+      "id": 4,
+      "name": "Mango",
+      "category": "Fruits",
+      "image": "https://i.pinimg.com/1200x/83/e9/23/83e9236642e447a2ad197f85cf31cdaa.jpg",
+      "varieties": "Alphonso, Tommy Atkins, Kent, Ataulfo",
+      "soil": "Deep, well-drained loamy or sandy loam, pH 5.5–7.5",
+      "water": "Low-moderate; drought tolerant when established",
+      "growthDuration": "3–5 years to first fruit; harvests annually",
+      "harvestTechnique": "Hand-pick with a short stem when fruit gives slightly under pressure.",
+      "nutrition": {
+        "calories": 60,
+        "protein": "0.8g",
+        "carbs": "15g",
+        "fiber": "1.6g"
+      },
+      "uses": [
+        "Fresh fruit",
+        "Juice & smoothies",
+        "Pickles & chutneys",
+        "Dried snacks"
+      ],
+      "tips": "Avoid over-watering during flowering to prevent fruit drop."
+    },
+    {
+      "id": 5,
+      "name": "Sugarcane",
+      "category": "Cash Crops",
+      "image": "https://i.pinimg.com/736x/73/6b/aa/736baa70968c4f59117f8cd4ef575f66.jpg",
+      "varieties": "Co 86032, Co 0238, CoM 0265",
+      "soil": "Deep, well-drained loam to clay loam, pH 6.0–7.5",
+      "water": "High – 1500–2500mm per season",
+      "growthDuration": "12–18 months",
+      "harvestTechnique": "Cut stalks at ground level with a sharp cane knife or harvester.",
+      "nutrition": {
+        "calories": 269,
+        "protein": "0g",
+        "carbs": "73g",
+        "fiber": "0g"
+      },
+      "uses": ["Sugar production", "Ethanol", "Molasses", "Paper & board"],
+      "tips": "Ratoon cropping (re-sprouting) allows 2–3 harvests from one planting."
+    },
+    {
+      "id": 6,
+      "name": "Potato",
+      "category": "Vegetables",
+      "image": "https://i.pinimg.com/736x/f5/2a/29/f52a29bce8680c5949796550a375956c.jpg",
+      "varieties": "Russet, Yukon Gold, Red Pontiac, Fingerling",
+      "soil": "Loose, well-drained sandy loam, pH 4.8–6.0",
+      "water": "Consistent moisture, avoid waterlogging",
+      "growthDuration": "70–120 days",
+      "harvestTechnique": "Dig with a fork after vines die back; cure in a cool dark place for 2 weeks.",
+      "nutrition": {
+        "calories": 77,
+        "protein": "2g",
+        "carbs": "17g",
+        "fiber": "2.2g"
+      },
+      "uses": [
+        "Food",
+        "Starch production",
+        "Animal feed",
+        "Vodka distillation"
+      ],
+      "tips": "Hill soil around plants as they grow to prevent greening of tubers."
+    },
+    {
+      "id": 7,
+      "name": "Banana",
+      "category": "Fruits",
+      "image": "https://i.pinimg.com/736x/70/05/4e/70054e48b59f271323501d58d16ecb64.jpg",
+      "varieties": "Cavendish, Plantain,Lady Finger, Red Banana",
+      "soil": "Deep, well-drained fertile loam, pH 5.5–7.0",
+      "water": "High – 1200–2200mm per year",
+      "growthDuration": "9–12 months from planting to harvest",
+      "harvestTechnique": "Cut the bunch when fingers are plump and round, while still green.",
+      "nutrition": {
+        "calories": 89,
+        "protein": "1.1g",
+        "carbs": "23g",
+        "fiber": "2.6g"
+      },
+      "uses": [
+        "Fresh fruit",
+        "Chips & flour",
+        "Cooking (plantains)",
+        "Baby food"
+      ],
+      "tips": "Remove the sucker (side shoot) leaving only 1–2 per plant for quality."
+    },
+    {
+      "id": 8,
+      "name": "Cotton",
+      "category": "Cash Crops",
+      "image": "https://i.pinimg.com/736x/44/66/45/4466452ab5a60da4025985df2f360dd0.jpg",
+      "varieties": "Upland Cotton, Pima, Egyptian, Organic Cotton",
+      "soil": "Well-drained black or loamy soil, pH 5.8–8.0",
+      "water": "Moderate – 700–1300mm per season",
+      "growthDuration": "150–180 days",
+      "harvestTechnique": "Hand-pick or machine harvest when bolls fully open and fibers fluffy.",
+      "nutrition": {
+        "calories": 0,
+        "protein": "0g",
+        "carbs": "0g",
+        "fiber": "0g"
+      },
+      "uses": [
+        "Textiles",
+        "Cottonseed oil",
+        "Animal feed",
+        "Medical dressings"
+      ],
+      "tips": "Scout for bollworm regularly; apply IPM strategies early."
+    }
+  ],
+  "pests": [
+    {
+      "id": 1,
+      "name": "Aphids",
+      "type": "Insect",
+      "affects": ["Vegetables", "Fruits", "Grains"],
+      "image": "https://i.pinimg.com/564x/ff/00/11/ff00112233445566778899aa.jpg",
+      "severity": "Medium",
+      "symptoms": "Curling or yellowing leaves, sticky honeydew residue, stunted growth.",
+      "identification": "Tiny (1–3mm), soft-bodied insects in green, black, or brown, found in clusters under leaves.",
+      "ipm": [
+        "Encourage natural predators like ladybirds and lacewings.",
+        "Spray with neem oil solution (5ml per litre of water).",
+        "Use insecticidal soap spray as a first-line organic treatment.",
+        "Install yellow sticky traps to monitor populations.",
+        "Remove heavily infested plant parts promptly."
+      ],
+      "organic": "Neem oil, garlic spray, diatomaceous earth",
+      "chemical": "Imidacloprid, pyrethrins (last resort)"
+    },
+    {
+      "id": 2,
+      "name": "Fall Armyworm",
+      "type": "Insect",
+      "affects": ["Maize", "Sorghum", "Rice"],
+      "image": "https://i.pinimg.com/564x/00/11/22/00112233445566778899aabb.jpg",
+      "severity": "High",
+      "symptoms": "Ragged holes in leaves, frass (excrement) in plant whorls, defoliation.",
+      "identification": "Caterpillar with an inverted Y-shape on head, brown/green striped, up to 4cm long.",
+      "ipm": [
+        "Scout fields twice weekly, especially at crop emergence.",
+        "Apply Bacillus thuringiensis (Bt) bio-pesticide when larvae are young.",
+        "Use pheromone traps to monitor adult moth populations.",
+        "Practice deep plowing to destroy pupae in soil.",
+        "Push-pull intercropping with Napier grass and Desmodium."
+      ],
+      "organic": "Bacillus thuringiensis, neem extract, ash in plant whorls",
+      "chemical": "Chlorpyrifos, lambda-cyhalothrin (follow label instructions)"
+    },
+    {
+      "id": 3,
+      "name": "Root-Knot Nematodes",
+      "type": "Nematode",
+      "affects": ["Vegetables", "Tomato", "Potato"],
+      "image": "https://i.pinimg.com/564x/11/22/33/112233445566778899aabbcc.jpg",
+      "severity": "High",
+      "symptoms": "Wilting despite adequate water, stunted growth, root galls (knots) on roots.",
+      "identification": "Microscopic worms; confirm by pulling plants and inspecting roots for round galls.",
+      "ipm": [
+        "Rotate crops with non-host plants like maize or cereals.",
+        "Incorporate marigold plants as a bio-fumigant cover crop.",
+        "Solarize soil with clear plastic for 6 weeks before planting.",
+        "Use resistant vegetable varieties where available.",
+        "Apply Trichoderma-based bio-fungicide to soil at planting."
+      ],
+      "organic": "Marigold green manure, neem cake, Trichoderma harzianum",
+      "chemical": "Carbofuran, fenamiphos (restrict to severe cases)"
+    },
+    {
+      "id": 4,
+      "name": "Powdery Mildew",
+      "type": "Fungal Disease",
+      "affects": ["Cucurbits", "Grapes", "Vegetables"],
+      "image": "https://i.pinimg.com/564x/22/33/44/2233445566778899aabbccdd.jpg",
+      "severity": "Medium",
+      "symptoms": "White powdery coating on leaves and stems; leaves yellow then die.",
+      "identification": "Distinct white talc-like powder on upper leaf surface, usually starting in patches.",
+      "ipm": [
+        "Plant resistant varieties when available.",
+        "Ensure good air circulation with proper plant spacing.",
+        "Apply baking soda spray (1 tsp per litre of water) at first signs.",
+        "Avoid overhead watering; water at base of plants.",
+        "Remove and destroy infected plant material."
+      ],
+      "organic": "Baking soda spray, potassium bicarbonate, sulfur dust",
+      "chemical": "Myclobutanil, propiconazole (rotate fungicide classes)"
+    },
+    {
+      "id": 5,
+      "name": "Locust Swarms",
+      "type": "Insect",
+      "affects": ["All crops", "Grassland", "Trees"],
+      "image": "https://i.pinimg.com/564x/33/44/55/33445566778899aabbccddee.jpg",
+      "severity": "Critical",
+      "symptoms": "Rapid total defoliation of crops, darkening skies when swarms approach.",
+      "identification": "Large grasshopper-like insects (4–8cm), yellow or green, travelling in massive groups.",
+      "ipm": [
+        "Monitor national locust forecasting bulletins and early warnings.",
+        "Coordinate with government authorities for aerial spraying programs.",
+        "Use noise and fire at field perimeters to deter swarms.",
+        "Protect seedlings with netting during invasion threats.",
+        "Apply Metarhizium (bio-insecticide fungus) when swarms land."
+      ],
+      "organic": "Metarhizium anisopliae bio-pesticide, physical barriers",
+      "chemical": "Malathion, fenitrothion (coordinated aerial application)"
+    },
+    {
+      "id": 6,
+      "name": "Tomato Late Blight",
+      "type": "Oomycete Disease",
+      "affects": ["Tomato", "Potato"],
+      "image": "https://i.pinimg.com/564x/44/55/66/445566778899aabbccddeeff.jpg",
+      "severity": "High",
+      "symptoms": "Water-soaked dark lesions on leaves and stems; white mold on undersides; rapid plant collapse.",
+      "identification": "Brown-black patches on leaves with yellow borders; white fuzzy growth visible under humid conditions.",
+      "ipm": [
+        "Use certified blight-free seed or resistant varieties.",
+        "Avoid overhead irrigation; drip irrigate instead.",
+        "Apply copper-based fungicide as a preventive spray.",
+        "Space plants widely for good air flow.",
+        "Destroy all infected plant material immediately."
+      ],
+      "organic": "Copper hydroxide spray, Bordeaux mixture",
+      "chemical": "Mancozeb, metalaxyl (preventive application before symptoms)"
+    }
+  ]
+}
